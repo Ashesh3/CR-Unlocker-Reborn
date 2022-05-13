@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "CR-Unlocker Reborn",
+  "version": "1.0.0",
+  "description": "A tool that will proxy the Crunchyroll Session ID through a US server.",
+  "author": "Ashesh3",
+  "homepage_url": "https://github.com/Ashesh3/CR-Unlocker-Reborn",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "*://*.crunchyroll.com/*",
+    "proxy"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}

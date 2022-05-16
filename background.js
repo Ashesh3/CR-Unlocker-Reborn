@@ -1,4 +1,4 @@
-browser.proxy.onRequest.addListener(handleProxyRequest, { urls: ["https://beta-api.crunchyroll.com/auth/v1/token"] });
+browser.proxy.onRequest.addListener(handleProxyRequest, { urls: ["*://*.crunchyroll.com/auth/v1/token"] });
 
 function handleProxyRequest(requestInfo) {
 	console.log("Token Proxied:", requestInfo.url);
